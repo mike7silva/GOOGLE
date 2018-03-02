@@ -52,13 +52,14 @@ div.busc {
   border: #D7D7D7 solid 0.1px;
   box-shadow: 1px 1px 1px #C1C1C1;
   width: 580px;
-  height: 40px;
+  height: 45px;
 }
 #browser {
   display: inline-block;
   text-align: left;
-  margin-right: 63px;
-  margin-top: 8px;
+  margin-top: -25px;
+  margin-bottom: 15px;
+  margin-left: -20px;
   outline: 0;
   vertical-align: middle;
   font-family: arial, sans-serif;
@@ -67,10 +68,18 @@ div.busc {
   width: 480px;
   height: 25px;
 }
+#micro {
+  margin-top: 7px;
+  margin-right: -40px;
+  margin-bottom: 2px;
+  padding-left: 25px;
+  display: inline-block;
+
+}
+
 div.busc:hover {
   border: #D7D7D7 solid 0.5px;
   width: 580px;
-  height: 40px;
   box-shadow: 2px 2px 3px #C1C1C1;
 }
 div.busc:focus {
@@ -78,7 +87,6 @@ div.busc:focus {
   border: #D7D7D7 solid 0.5px;
   box-shadow: 2px 2px 3px #C1C1C1;
   width: 580px;
-  height: 40px;
   text-align: left;
 }
 #but {
